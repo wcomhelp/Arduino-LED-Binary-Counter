@@ -26,3 +26,28 @@ Choose the other button, it will be the decrement button. Every time the decreme
   
 3. What if you added one more LED, how many times before this sixth LED is lit?  
   Answer: 2^(LED Number - 1) = 2^(6 - 1) = 32
+  
+### Accessories used:  
+5 x 560 Ohm (Grn Blu Brown) resistor  
+5 x LED  
+1 x Arduino Mega Board (AMG)  
+2 x 10k Ohm resistor  
+2 x 10uF Capacitor  
+2 x Push button  
+  
+### Wiring instructions:  
+Arduino Pin 9 to 13 <--> Resistor <--> Longer LED lead |LED| Shorter LED lead <---> Arduino GND  
+Buttons  
+Arduino Pin 2 and 3 <--> Top Left of Button <--->Bottom Left of Button<-->Resistor <---> Arduino GND  
+  
+Increment Button PIN 3 with capacitor in parallel  
+  
+Decrement Button PIN 2  with capacitor in parallel  
+  
+LEDs PINs 9 through 13  
+  
+### Special notes: 
+
+This project was compiled on the arduino Virtual Machine provided by the University of Alberta Dept. of Computing Science.
+  
+There is a delay of 300 ms per button press, if you hold the button down longer, the LEDs will advance to the next state.  
