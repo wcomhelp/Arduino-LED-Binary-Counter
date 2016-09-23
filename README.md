@@ -5,7 +5,6 @@ The outcomes of this project are:
 • Understand how arrays of variables work on Arduino.  
 • Understand how loops (while and for) work on Arduino.    
 • Using loops to avoid repeating code and making code easier to extend.  
-• Write a program based on only an English description of its behaviour.  
   
 This project is based off a circuit built with 5 LEDs and 2 pushbuttons. The LEDs should mimic a binary counter.
 
